@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="links">
+
+        <a 
+            href="https://ufop.br"
+            target="_blank"
+        >UFOP</a>
+        <a href="../index.html">Home</a>
+
+     </div>
+
+
+    <h1>Cadastro de pessoas</h1>
+
+    <form method="get" action="/pessoas/cadastrar">
+
+        <div>
+            <label for="nome">Nome</label>
+            <input type="text" 
+                name="nomeDaPessoa"
+                id="nome"
+                placeholder="Informe o nome completo da pessoa"
+                minlength="10"
+                required
+                value=""
+            >  
+        </div>
+        
+        <div>
+            <label for="senha">Senha</label>
+            <input type="password" 
+                name="senha" 
+                id="senha"
+                required
+            >
+        </div>
+
+        <br>    
+
+        <div>
+            <label for="">Gênero</label>
+            <div>
+                <input 
+                    type="radio" 
+                    name="genero"
+                    value="FEM" 
+                    id="feminino"
+                >
+                <label for="feminino">Feminino</label>
+            </div>
+
+            <div>
+                <input 
+                    type="radio" 
+                    name="genero" 
+                    value="MAS"
+                    id="masculino"
+                >
+                <label for="masculino">Masculino</label>
+            </div>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Notificações</label>
+            <div>
+                <input type="checkbox" 
+                name="notificacao[0]"
+                id="email">
+                <label for="email">E-mail</label>
+            </div>
+
+            <div>
+                <input type="checkbox" 
+                name="notificacao[1]"
+                id="whatsapp">
+                <label for="whatsapp">WhatsApp</label>
+            </div>
+
+            <div>
+                <input type="checkbox" 
+                name="notificacao[2]"
+                id="sms">
+                <label for="sms">SMS</label>
+            </div>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="uf">UF</label>
+            <select name="uf" id="uf" required>
+
+                <option 
+                    value="0"
+                    selected
+                    disabled
+                ></option>
+                
+                <option value="1">MG</option>
+                <option value="2">SP</option>
+                <option value="3">RJ</option>
+                <option value="4">ES</option>
+
+            </select>
+        </div>
+
+        <br>
+
+        <div>            
+            <label for="cor">Cor Padrão do Perfil</label>
+            <input type="color" name="cor" id="cor">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="image">Imagem de Perfil</label>
+            <input type="file" name="image" id="image">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="data">Data de Nascimento</label>
+            <input type="date" name="data" id="data">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <br>
+
+        <input type="submit">
+
+        <input type="reset">
+
+    </form>
+    
+</body>
+</html>

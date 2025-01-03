@@ -1,7 +1,43 @@
-# Vanilla JavaScript App
+﻿# **CSI606-24.2 - Proposta de Trabalho Final**
 
-[Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps/overview) allows you to easily build JavaScript apps in minutes. Use this repo with the [quickstart](https://docs.microsoft.com/azure/static-web-apps/getting-started?tabs=vanilla-javascript) to build and customize a new static site.
+## *Discente: Luccas Vinicius P. A. Santos Carneiro*
 
-This repo is used as a starter for a _very basic_ HTML web application using no front-end frameworks.
+<!-- Descrever um resumo sobre o trabalho. -->
 
-This repo has a dev container. This means if you open it inside a [GitHub Codespace](https://github.com/features/codespaces), or using [VS Code with the remote containers extension](https://code.visualstudio.com/docs/remote/containers), it will be opened inside a container with all the dependencies already installed.
+### Resumo
+
+  (Apresentar um breve resumo sobre o seu trabalho, indicando o contexto e as principais funcionalidades.)
+
+<!-- Apresentar o tema. -->
+### 1. Tema
+
+  Gerenciamento de Opiniões e Comentários sobre Professores e Disciplinas do ICEA
+
+<!-- Descrever e limitar o escopo da aplicação. -->
+### 2. Escopo
+
+  Este projeto terá as seguintes funcionalidades...
+
+<!-- Apresentar restrições de funcionalidades e de escopo. -->
+### 3. Restrições
+
+  Neste trabalho não serão considerados ...
+
+<!-- Construir alguns protótipos para a aplicação, disponibilizá-los no Github e descrever o que foi considerado. //-->
+### 4. Protótipo
+
+  Protótipos desenvolvidos no modelo MVC e em um aplicativo web estático.
+
+  - [Protótipo MVC](https://github.com/luccas00/WEB1_MVC)
+  - [Protótipo Static Web App](https://github.com/luccas00/WEB1_StaticWebApp)
+	
+
+### 5. Referências
+
+  - [Introdução ao ASP.NET MVC](https://learn.microsoft.com/pt-br/aspnet/mvc/overview/getting-started/introduction/getting-started)
+  - [Criar um aplicativo Web seguro do ASP.NET MVC](https://learn.microsoft.com/pt-br/aspnet/mvc/overview/security/create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset)
+  
+  - [Criar seu primeiro aplicativo Web estático](https://learn.microsoft.com/pt-br/azure/static-web-apps/get-started-portal?tabs=vanilla-javascript&pivots=github)
+  
+  - [HTML Tutorial](https://www.w3schools.com/html/default.asp)
+  - [CSS Tutorial](https://www.w3schools.com/css/default.asp)
