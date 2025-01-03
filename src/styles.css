@@ -7,15 +7,30 @@ html, body {
   border: 0;
   padding: 0;
   background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-main {
-  margin: auto;
-  width: 50%;
+.form-container {
+  max-width: 600px; /* Limite o tamanho do formulário */
+  width: 100%; /* Garante que o formulário ocupe 100% da largura disponível até o limite */
   padding: 20px;
+  box-sizing: border-box;
 }
 
-main > h1 {
-  text-align: center;
-  font-size: 3.5em;
+.form {
+  width: 100%;
+}
+
+input,
+select,
+textarea {
+  width: 100%; /* Garante que os campos preencham a largura do formulário */
+  max-width: 100%; /* Impede que eles ultrapassem o tamanho do contêiner */
+}
+
+.mytextarea {
+  max-width: 100%;
 }

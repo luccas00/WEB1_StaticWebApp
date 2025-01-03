@@ -1,71 +1,45 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
     <head>
-        <title>Introducao ao HTML</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
     </head>
 
     <body>
-        <header>
+        <header style="display: flex; justify-content: center; align-items: center;">
 
-            <div id="links">
-
-                <a 
-                    href="https://ufop.br"
-                    target="_blank"
-                >UFOP</a>
-                <a href="./HTML/pessoas.html">Cadastro</a>
-                <a href="#">Sobre</a>
-                <a href="#">Contato</a>
-    
-            </div>
-
-        </header>
+            <div id="links" style="display: flex; gap: 25px;">
         
-        <h1>Ola, mundo!</h1>
-        <h2>Sistemas Web I</h2>
-        <p><strong>Introducao ao HTML</strong> e suas caracteristicas principais.</p>
-        <p>Inicio do curso.</p>
+                <a href="./index.html">Home</a>
+                <a href="./HTML/pessoas.html">Cadastro</a>
+                <a href="./sobre.html">Sobre</a>
+                <a href="./contato.html">Contato</a>
+                <a href="https://ufop.br" target="_blank">UFOP</a>
+                <a href="https://moodlepresencial.ufop.br/login/index.php" target="_blank">Moodle</a>
+                
+            </div>
+        
+        </header>
 
-        <article>
-            <section>
-                <h2>Definicao do ambiente</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus, debitis! Itaque ducimus deleniti recusandae nesciunt voluptas assumenda, magnam, impedit dolorem et, placeat nulla maxime excepturi quaerat quod sit sequi iure!</p>
-            </section>
-
-            <footer>
-
-            </footer>
-        </article>
-
-        <div>
-
+        
+        <div class="text-center" style="display: flex; justify-content: center; align-items: center;">
+            <h1 class="display-4">Static Luccas Corp</h1>
         </div>
-
-        <!-- Links -->
-        <div id="links">
-
-            <a 
-                href="https://ufop.br"
-                target="_blank"
-            >UFOP</a>
-            <a href="./HTML/pessoas.html">Cadastro</a>
-            <a href="#">Sobre</a>
-            <a href="#">Contato</a>
-
-        </div>
-
-         <!-- Imagens -->
+        
 
     </body>
-
+    
     <footer style="display: flex; justify-content: space-between; align-items: center; padding: 1rem; border-top: 1px solid #ccc; position: fixed; bottom: 0; width: 100%; background-color: #f8f9fa;">
         <p style="margin: 0; text-align: center; flex: 1;">&copy; <script>document.write(new Date().getFullYear());</script> - Luccas Corp - Static Web App</p>
-        <div id="imagem" style="margin-left: auto;">
+        <div id="imagem" style="display: flex; justify-content: center; align-items: center;">
             <img 
                 src="./img/logo-decsi.png" 
                 alt="Apresenta a logomarca do Departamento de Computação e Sistemas"
-                style="width: 15%;"
+                style="width: 15%;" 
             >
         </div>
+        <p style="margin: 0; text-align: center; flex: 1;">Sistemas Web 1 CSI606</p>
     </footer>
 
 </html>

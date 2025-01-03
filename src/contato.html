@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <link rel="stylesheet" type="text/css" href="path/to/your/styles.css">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
@@ -12,7 +14,7 @@
             font-weight: bold;
         }
         .form-control {
-            width: 100%;
+            width: 50%;
             padding: 0.5rem;
             margin-bottom: 0.5rem;
             border: 1px solid #ccc;
@@ -35,48 +37,76 @@
     </style>
 </head>
 <body>
+
+    <header style="display: flex; justify-content: center; align-items: center;">
+
+        <div id="links" style="display: flex; gap: 25px;">
+    
+            <a href="./index.html">Home</a>
+            <a href="./HTML/pessoas.html">Cadastro</a>
+            <a href="./sobre.html">Sobre</a>
+            <a href="./contato.html">Contato</a>
+            <a href="https://ufop.br" target="_blank">UFOP</a>
+            <a href="https://moodlepresencial.ufop.br/login/index.php" target="_blank">Moodle</a>
+            
+        </div>
+    
+    </header>
+
     <main aria-labelledby="title">
         <h2 id="title">Contato</h2>
         <br />
-        <h4>Universidade Federal de Ouro Preto</h4>
-        <h6>Instituto de Ciências Exatas e Aplicadas</h6>
+        <h3>Universidade Federal de Ouro Preto</h3>
+        <h4>Instituto de Ciências Exatas e Aplicadas</h4>
         <address>
             R. Trinta e Seis, 115 - Loanda<br />
             João Monlevade - MG, 35931-008<br />
         </address>
+        <br/>
         <strong>Suporte:</strong> <a href="mailto:luccas.carneiro@aluno.ufop.edu.br">luccas.carneiro@aluno.ufop.edu.br</a>
         <br />
         <br />
     </main>
 
-    <form action="/submit-contact" method="post">
+    <form action="/submit-contact" method="post" class="form-container">
         <div class="form">
             <h4>Envie sua mensagem</h4>
             <hr />
             <div class="form-group">
-                <label for="name" class="control-label">Nome</label>
-                <input type="text" id="name" name="name" class="form-control" required />
+                <label for="name" class="control-label">Nome</label><br/>
+                <input type="text" id="name" name="name" class="form-control" required/>
                 <span class="text-danger" id="name-error"></span>
             </div>
-
+    
             <div class="form-group">
-                <label for="email" class="control-label">E-mail</label>
+                <label for="email" class="control-label">E-mail</label><br/>
                 <input type="email" id="email" name="email" class="form-control" required />
                 <span class="text-danger" id="email-error"></span>
             </div>
-
+    
             <div class="form-group">
-                <label for="message" class="control-label">Mensagem</label>
+                <label for="message" class="control-label">Mensagem</label><br/>
                 <textarea id="message" name="message" class="form-control" rows="6" required></textarea>
                 <span class="text-danger" id="message-error"></span>
             </div>
-
+    
             <br />
-
+    
             <div class="form-group">
                 <button type="submit" class="btn btn-primary">Enviar</button>
             </div>
         </div>
     </form>
 </body>
+<footer style="display: flex; justify-content: space-between; align-items: center; padding: 1rem; border-top: 1px solid #ccc; position: fixed; bottom: 0; width: 100%; background-color: #f8f9fa;">
+    <p style="margin: 0; text-align: center; flex: 1;">&copy; <script>document.write(new Date().getFullYear());</script> - Luccas Corp - Static Web App</p>
+    <div id="imagem" style="display: flex; justify-content: center; align-items: center;">
+        <img 
+            src="./img/logo-decsi.png" 
+            alt="Apresenta a logomarca do Departamento de Computação e Sistemas"
+            style="width: 15%;" 
+        >
+    </div>
+    <p style="margin: 0; text-align: center; flex: 1;">Sistemas Web 1 CSI606</p>
+</footer>
 </html>

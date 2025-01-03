@@ -7,15 +7,20 @@
 </head>
 <body>
 
-    <div id="links">
+    <header style="display: flex; justify-content: center; align-items: center;">
 
-        <a 
-            href="https://ufop.br"
-            target="_blank"
-        >UFOP</a>
-        <a href="../index.html">Home</a>
-
-     </div>
+        <div id="links" style="display: flex; gap: 25px;">
+    
+            <a href="../index.html">Home</a>
+            <a href="../HTML/pessoas.html">Cadastro</a>
+            <a href="../sobre.html">Sobre</a>
+            <a href="../contato.html">Contato</a>
+            <a href="https://ufop.br" target="_blank">UFOP</a>
+            <a href="https://moodlepresencial.ufop.br/login/index.php" target="_blank">Moodle</a>
+            
+        </div>
+    
+    </header>
 
 
     <h1>Cadastro de pessoas</h1>
@@ -151,4 +156,17 @@
     </form>
     
 </body>
+
+<footer style="display: flex; justify-content: space-between; align-items: center; padding: 1rem; border-top: 1px solid #ccc; position: fixed; bottom: 0; width: 100%; background-color: #f8f9fa;">
+    <p style="margin: 0; text-align: center; flex: 1;">&copy; <script>document.write(new Date().getFullYear());</script> - Luccas Corp - Static Web App</p>
+    <div id="imagem" style="display: flex; justify-content: center; align-items: center;">
+        <img 
+            src="../img/logo-decsi.png" 
+            alt="Apresenta a logomarca do Departamento de Computação e Sistemas"
+            style="width: 15%;" 
+        >
+    </div>
+    <p style="margin: 0; text-align: center; flex: 1;">Sistemas Web 1 CSI606</p>
+</footer>
+
 </html>
