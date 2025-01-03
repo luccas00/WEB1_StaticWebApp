@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+        .form-group {
+            margin-bottom: 1rem;
+        }
+        .control-label {
+            font-weight: bold;
+        }
+        .form-control {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .text-danger {
+            color: red;
+        }
+        .btn {
+            padding: 0.5rem 1rem;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <main aria-labelledby="title">
+        <h2 id="title">Contato</h2>
+        <br />
+        <h4>Universidade Federal de Ouro Preto</h4>
+        <h6>Instituto de Ciências Exatas e Aplicadas</h6>
+        <address>
+            R. Trinta e Seis, 115 - Loanda<br />
+            João Monlevade - MG, 35931-008<br />
+        </address>
+        <strong>Suporte:</strong> <a href="mailto:luccas.carneiro@aluno.ufop.edu.br">luccas.carneiro@aluno.ufop.edu.br</a>
+        <br />
+        <br />
+    </main>
+
+    <form action="/submit-contact" method="post">
+        <div class="form">
+            <h4>Envie sua mensagem</h4>
+            <hr />
+            <div class="form-group">
+                <label for="name" class="control-label">Nome</label>
+                <input type="text" id="name" name="name" class="form-control" required />
+                <span class="text-danger" id="name-error"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="control-label">E-mail</label>
+                <input type="email" id="email" name="email" class="form-control" required />
+                <span class="text-danger" id="email-error"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="message" class="control-label">Mensagem</label>
+                <textarea id="message" name="message" class="form-control" rows="6" required></textarea>
+                <span class="text-danger" id="message-error"></span>
+            </div>
+
+            <br />
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
