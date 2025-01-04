@@ -29,7 +29,7 @@
 
   Links de acesso
 
-  - [Protótipo MVC]([https://github.com/luccas00/WEB1_MVC](https://luccascorp.azurewebsites.net/))
+  - [Protótipo MVC](https://luccascorp.azurewebsites.net/))
   - [Protótipo Static Web App](https://brave-stone-0c5a98610.4.azurestaticapps.net/)
 
  
