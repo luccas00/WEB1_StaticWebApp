@@ -24,15 +24,24 @@
   Neste trabalho não serão considerados ...
 
 <!-- Construir alguns protótipos para a aplicação, disponibilizá-los no Github e descrever o que foi considerado. //-->
-### 4. Protótipo
 
-  Protótipos desenvolvidos no modelo MVC e em um aplicativo web estático.
+### 4. Links
+
+  Links de acesso
+
+  - [Protótipo MVC]([https://github.com/luccas00/WEB1_MVC](https://luccascorp.azurewebsites.net/))
+  - [Protótipo Static Web App](https://brave-stone-0c5a98610.4.azurestaticapps.net/)
+
+ 
+### 5. Protótipo
+
+  Código fonte dos protótipos desenvolvidos no modelo MVC e em um aplicativo web estático.
 
   - [Protótipo MVC](https://github.com/luccas00/WEB1_MVC)
   - [Protótipo Static Web App](https://github.com/luccas00/WEB1_StaticWebApp)
 	
 
-### 5. Referências
+### 6. Referências
 
   - [Introdução ao ASP.NET MVC](https://learn.microsoft.com/pt-br/aspnet/mvc/overview/getting-started/introduction/getting-started)
   - [Criar um aplicativo Web seguro do ASP.NET MVC](https://learn.microsoft.com/pt-br/aspnet/mvc/overview/security/create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset)
