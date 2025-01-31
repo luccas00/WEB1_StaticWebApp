@@ -6,7 +6,7 @@
 
 ### Resumo
 
-  (Apresentar um breve resumo sobre o seu trabalho, indicando o contexto e as principais funcionalidades.)
+   Este projeto consiste na implementação de um site para o gerenciamento de opiniões e comentários sobre professores e disciplinas do ICEA (Instituto de Ciências Exatas e Aplicadas) da UFOP. A plataforma permitirá que os alunos registrem feedbacks sobre suas experiências acadêmicas, garantindo um ambiente de avaliações construtivas. Para manter a qualidade e a ética dos comentários, o sistema utilizará Inteligência Artificial para analisar o conteúdo, identificando possíveis insultos, preconceitos ou julgamentos subjetivos. O acesso será restrito a alunos da UFOP, exigindo cadastro e confirmação via e-mail institucional.
 
 <!-- Apresentar o tema. -->
 ### 1. Tema
@@ -16,12 +16,21 @@
 <!-- Descrever e limitar o escopo da aplicação. -->
 ### 2. Escopo
 
-  Este projeto terá as seguintes funcionalidades...
+  - Cadastro e login de usuários utilizando e-mail institucional da UFOP.
+  - Publicação de comentários sobre professores e disciplinas do ICEA.
+  - Sistema de análise de sentimentos e filtragem de conteúdo inadequado usando IA.
+  - Detecção automática de insultos, preconceitos e julgamentos subjetivos.
+  - Exibição de comentários aprovados de forma organizada e acessível.
+  - Moderação automatizada para evitar discursos ofensivos ou discriminatórios.
 
 <!-- Apresentar restrições de funcionalidades e de escopo. -->
 ### 3. Restrições
 
-  Neste trabalho não serão considerados ...
+  - Comentários anônimos ou de usuários sem e-mail institucional da UFOP.
+  - Avaliações quantitativas, como notas ou estrelas, focando exclusivamente em feedbacks textuais.
+  - Edições de comentários após a publicação, permitindo apenas exclusão e repostagem.
+  - Moderação manual, sendo a filtragem realizada exclusivamente por IA.
+  - Suporte a outras unidades da UFOP além do ICEA.
 
 <!-- Construir alguns protótipos para a aplicação, disponibilizá-los no Github e descrever o que foi considerado. //-->
 
