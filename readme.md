@@ -53,6 +53,7 @@
 ### 6. Referências
 
   - [Introdução ao ASP.NET MVC](https://learn.microsoft.com/pt-br/aspnet/mvc/overview/getting-started/introduction/getting-started)
+  - [Confirmação da conta e recuperação de senha com ASP.NET Identity (C#)](https://learn.microsoft.com/pt-br/aspnet/identity/overview/features-api/account-confirmation-and-password-recovery-with-aspnet-identity)
   - ~~[Criar um aplicativo Web seguro do ASP.NET MVC](https://learn.microsoft.com/pt-br/aspnet/mvc/overview/security/create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset)~~
   
   - [Criar seu primeiro aplicativo Web estático](https://learn.microsoft.com/pt-br/azure/static-web-apps/get-started-portal?tabs=vanilla-javascript&pivots=github)
